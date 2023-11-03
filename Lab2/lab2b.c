@@ -38,7 +38,9 @@ int main() {
             sum += curr;
             printf("%5d |%20llu |%21llu (= %2.2e)\n", i + 1, curr, sum, (float) sum);
         }
-    } // 1.012e+12 tons = 1 012 000 000 000 tons > 735 800 000 tons (exceeds the real number ~1428 times)
+        long double tons = sum * 5.5e-8;
+        printf("\nAssuming that one grain contains 55 mg of wheat we get %Le tons of wheat which exceeds the real number of production (735.8 million tons) %Lf times\n", tons, tons / 7.358e+8);
+    }
 
     return 0;
 }
