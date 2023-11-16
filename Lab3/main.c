@@ -14,7 +14,7 @@ int main() {
         arr[i] = (float) rand() / (float) (RAND_MAX / 180) - 90;
         printf("Latitude = %f; ", arr[i]);
         printf("isNothernHemishere() = %d; ", isNorthernHemisphere(arr[i]));
-        printf("isSouthernHemishpere = %d;\n", isSouthernHemisphere(arr[i]));
+        printf("isSouthernHemishpere() = %d;\n", isSouthernHemisphere(arr[i]));
     }
 
     char* names[7] = {"HAW Hamburg", "Eiffel Tower", "Palma de Mallorca",
