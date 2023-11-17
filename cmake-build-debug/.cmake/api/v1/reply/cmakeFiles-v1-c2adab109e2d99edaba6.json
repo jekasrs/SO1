@@ -106,8 +106,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/Lab4/cmake-build-debug",
-		"source" : "/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/Lab4"
+		"build" : "/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/labs/cmake-build-debug",
+		"source" : "/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/labs"
 	},
 	"version" : 
 	{
