@@ -37,9 +37,9 @@ void theLongestLength(double locations[][2], int M, double* maxDist, int* maxPoi
 
 void task1() {
     int N = 9;
-    double **points = (double **) malloc(N * sizeof(double *));
+    double **points = malloc(N * sizeof(double *));
     for (int i = 0; i < N; ++i) {
-        points[i] = (double *) malloc(2 * sizeof(double));
+        points[i] = malloc(2 * sizeof(double));
     }
 
     FILE *file = fopen("Geo.txt", "r");
@@ -67,6 +67,7 @@ void task1() {
         free(points[i]);
     }
     free(points);
+    points = NULL;
 
 }
 void task2() {
