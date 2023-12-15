@@ -1,3 +1,0 @@
-/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/labs/lab5/cmake-build-debug/CMakeFiles/lab5.dir
-/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/labs/lab5/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/evgenijsmirnov/HAW_HAMBURG/SOL1/labs/lab5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
